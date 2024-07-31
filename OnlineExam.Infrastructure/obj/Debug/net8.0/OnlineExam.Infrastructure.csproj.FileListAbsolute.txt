@@ -1,0 +1,17 @@
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/bin/Debug/net8.0/OnlineExam.Infrastructure.deps.json
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/bin/Debug/net8.0/OnlineExam.Infrastructure.runtimeconfig.json
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/bin/Debug/net8.0/OnlineExam.Infrastructure.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/bin/Debug/net8.0/OnlineExam.Infrastructure.pdb
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/bin/Debug/net8.0/OnlineExam.Domain.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/bin/Debug/net8.0/OnlineExam.Domain.pdb
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.csproj.AssemblyReference.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.AssemblyInfoInputs.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.AssemblyInfo.cs
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineEx.1E9B5419.Up2Date
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/refint/OnlineExam.Infrastructure.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.pdb
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.genruntimeconfig.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/ref/OnlineExam.Infrastructure.dll

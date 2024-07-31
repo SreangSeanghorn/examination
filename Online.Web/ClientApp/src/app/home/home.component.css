@@ -1,0 +1,53 @@
+
+.custom{
+  background-color: #00a99d;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+
+}
+.position-relative {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.position-absolute {
+  width: 100%;
+}
+
+.background-container {
+  background-image: url('../../assets/img/background_home_page-01.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+
+.text-white {
+  color: lightseagreen!important;
+}
+
+.text-dark {
+  color: #000000 !important;
+}
+.btn-bg{
+  background-color: #00a99d;
+  color: #ffffff;
+  border: 1px solid #00a99d;
+}

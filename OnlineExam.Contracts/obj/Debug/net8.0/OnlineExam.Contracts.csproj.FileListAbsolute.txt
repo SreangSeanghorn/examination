@@ -1,0 +1,11 @@
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/bin/Debug/net8.0/OnlineExam.Contracts.deps.json
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/bin/Debug/net8.0/OnlineExam.Contracts.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/bin/Debug/net8.0/OnlineExam.Contracts.pdb
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/Debug/net8.0/OnlineExam.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/Debug/net8.0/OnlineExam.Contracts.AssemblyInfoInputs.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/Debug/net8.0/OnlineExam.Contracts.AssemblyInfo.cs
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/Debug/net8.0/OnlineExam.Contracts.csproj.CoreCompileInputs.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/Debug/net8.0/OnlineExam.Contracts.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/Debug/net8.0/refint/OnlineExam.Contracts.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/Debug/net8.0/OnlineExam.Contracts.pdb
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/Debug/net8.0/ref/OnlineExam.Contracts.dll

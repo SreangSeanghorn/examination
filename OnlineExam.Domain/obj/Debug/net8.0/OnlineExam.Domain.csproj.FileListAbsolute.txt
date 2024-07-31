@@ -1,0 +1,12 @@
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/bin/Debug/net8.0/OnlineExam.Domain.deps.json
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/bin/Debug/net8.0/OnlineExam.Domain.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/bin/Debug/net8.0/OnlineExam.Domain.pdb
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.csproj.AssemblyReference.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.AssemblyInfoInputs.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.AssemblyInfo.cs
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.csproj.CoreCompileInputs.cache
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/refint/OnlineExam.Domain.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.pdb
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/ref/OnlineExam.Domain.dll

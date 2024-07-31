@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.Contracts", "OnlineExam.Contracts\OnlineExam.Contracts.csproj", "{53D4A74A-62B8-4714-898E-F2517054C12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.Domain", "OnlineExam.Domain\OnlineExam.Domain.csproj", "{621310EF-F913-405C-B243-73E6BA99FA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.Infrastructure", "OnlineExam.Infrastructure\OnlineExam.Infrastructure.csproj", "{CDC2298A-2C25-4133-BC3B-4F66CFED5E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.api", "OnlineExam.api\OnlineExam.api.csproj", "{C9954607-3958-4ED1-8765-CF560AAFD847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.Application", "OnlineExam.Application\OnlineExam.Application.csproj", "{66F2229B-5E32-403D-BA3D-E206F9797829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53D4A74A-62B8-4714-898E-F2517054C12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D4A74A-62B8-4714-898E-F2517054C12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D4A74A-62B8-4714-898E-F2517054C12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D4A74A-62B8-4714-898E-F2517054C12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621310EF-F913-405C-B243-73E6BA99FA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621310EF-F913-405C-B243-73E6BA99FA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621310EF-F913-405C-B243-73E6BA99FA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621310EF-F913-405C-B243-73E6BA99FA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC2298A-2C25-4133-BC3B-4F66CFED5E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC2298A-2C25-4133-BC3B-4F66CFED5E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC2298A-2C25-4133-BC3B-4F66CFED5E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC2298A-2C25-4133-BC3B-4F66CFED5E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9954607-3958-4ED1-8765-CF560AAFD847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9954607-3958-4ED1-8765-CF560AAFD847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9954607-3958-4ED1-8765-CF560AAFD847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9954607-3958-4ED1-8765-CF560AAFD847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F2229B-5E32-403D-BA3D-E206F9797829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F2229B-5E32-403D-BA3D-E206F9797829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F2229B-5E32-403D-BA3D-E206F9797829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F2229B-5E32-403D-BA3D-E206F9797829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

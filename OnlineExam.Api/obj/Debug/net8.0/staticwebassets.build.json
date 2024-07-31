@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2LS6Okpn7R3kPKumUb77UHreEyD8bzMxR8dIQy5WoIQ=",
+  "Source": "OnlineExam.api",
+  "BasePath": "_content/OnlineExam.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
