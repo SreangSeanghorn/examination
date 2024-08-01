@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Inventory.API/bin/Debug/net8.0/Inventory.API.dll",
+            "program": "${workspaceFolder}/OnlineExam.Api/bin/Debug/net8.0/OnlineExam.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Inventory.API",
+            "cwd": "${workspaceFolder}/OnlineExam.Api",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",

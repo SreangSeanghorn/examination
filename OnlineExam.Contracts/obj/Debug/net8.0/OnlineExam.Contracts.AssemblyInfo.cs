@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineExam.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c91ea24a1b5c0438a565a2dba7bf69dba46eee16")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineExam.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineExam.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

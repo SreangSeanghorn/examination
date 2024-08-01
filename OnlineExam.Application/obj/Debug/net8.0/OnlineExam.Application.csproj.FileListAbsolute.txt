@@ -17,3 +17,4 @@
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Application/obj/Debug/net8.0/refint/OnlineExam.Application.dll
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Application/obj/Debug/net8.0/OnlineExam.Application.pdb
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Application/obj/Debug/net8.0/ref/OnlineExam.Application.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Application/obj/Debug/net8.0/OnlineExam.Application.sourcelink.json

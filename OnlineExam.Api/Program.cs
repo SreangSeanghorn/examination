@@ -26,7 +26,7 @@ var builder = WebApplication.CreateBuilder(args);
 }
 var app = builder.Build();
 {
-    app.UseMiddleware<ErrorHanldingMiddleware>();
+    //app.UseMiddleware<ErrorHanldingMiddleware>();
     app.UseSwagger();
     app.UseSwaggerUI();
     app.UseHttpsRedirection();

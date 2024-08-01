@@ -19,13 +19,25 @@ namespace OnlineExam.Application.Controllers
     {
         private readonly IAuthenticationService _authenticationService;
         private readonly ICommandResolver _commandResolver;
+        //ctor
+        public AuthenticationController(IAuthenticationService authenticationService, ICommandResolver commandResolver)
+        {
+            _authenticationService = authenticationService;
+            _commandResolver = commandResolver;
+        }
   
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
+            var user = request.Username;
+            Console.WriteLine("Registering user"+request.Username);
+            if(request == null)
+            {
+                return BadRequest();
+            }
             var command = new UserRegisterCommand(request.Username, request.Email, request.Password);
-            var result = await _commandResolver.ResolveHandler<UserRegisterCommand, AuthenticationResponse>(command);
-            return Ok(result);
+            var result = await _commandResolver.ResolveHandler<UserRegisterCommand, AuthenticationResultResponse>(command);
+            return Ok();
         }
 
     }

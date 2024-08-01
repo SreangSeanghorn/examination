@@ -15,3 +15,4 @@
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.pdb
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.genruntimeconfig.cache
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/ref/OnlineExam.Infrastructure.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/obj/Debug/net8.0/OnlineExam.Infrastructure.sourcelink.json

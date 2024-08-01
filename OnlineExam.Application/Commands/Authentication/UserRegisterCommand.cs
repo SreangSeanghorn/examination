@@ -10,7 +10,7 @@ using OnlineExam.Contracts.Authentication;
 
 namespace OnlineExam.Application.Commands.Authentication
 {
-    public class UserRegisterCommand : ICommand<AuthenticationResponse>
+    public class UserRegisterCommand : ICommand<AuthenticationResultResponse>
     {
         public UserRegisterCommand(string userName, string email, string password) 
         {

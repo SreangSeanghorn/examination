@@ -10,3 +10,4 @@
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/refint/OnlineExam.Domain.dll
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.pdb
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/ref/OnlineExam.Domain.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/Debug/net8.0/OnlineExam.Domain.sourcelink.json

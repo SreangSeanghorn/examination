@@ -16,7 +16,7 @@ using OnlineExam.Infrastructure;
 
 namespace OnlineExam.Application.CommandHandler.Authentication
 {
-    public class UserRegisterCommandHandler : ICommandHandler<UserRegisterCommand, AuthenticationResponse>
+    public class UserRegisterCommandHandler : ICommandHandler<UserRegisterCommand, AuthenticationResultResponse>
     {
         private readonly IUserRepository _userRepository;
         private readonly IPasswordHasher<User> _passwordHasher;
@@ -29,7 +29,7 @@ namespace OnlineExam.Application.CommandHandler.Authentication
             _tokenService = tokenService;
         }
 
-        public Task<AuthenticationResponse> Handle(UserRegisterCommand command, CancellationToken cancellationToken)
+        public Task<AuthenticationResultResponse> Handle(UserRegisterCommand command, CancellationToken cancellationToken)
         {
             var user = User.CreateUser(command.UserName,
             Email.Create(command.Email),
@@ -38,7 +38,8 @@ namespace OnlineExam.Application.CommandHandler.Authentication
             _userRepository.SaveChangesAsync();
 
             var token = _tokenService.GenerateToken(user.Id, user.Username);
-            var response = new AuthenticationResponse(user.Id, user.Username, user.Email.Value, token);
+            var response = new AuthenticationResultResponse(user, token);
+            
             return Task.FromResult(response);
         }
     }

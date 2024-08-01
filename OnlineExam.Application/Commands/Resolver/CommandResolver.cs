@@ -18,7 +18,7 @@ namespace OnlineExam.Infrastructure.Resolver
             _serviceProvider = serviceProvider;
         }
 
-        public Task<TResult> ResolveHandler<TCommand, TResult>(TCommand command)
+        public async Task<TResult> ResolveHandler<TCommand, TResult>(TCommand command)
          where TCommand : ICommand<TResult>
         {
             var handler = _serviceProvider.GetService(typeof(ICommandHandler<TCommand, TResult>));
@@ -26,7 +26,7 @@ namespace OnlineExam.Infrastructure.Resolver
             {
                 throw new InvalidOperationException($"Handler for {typeof(TCommand).Name} not found");
             }
-             return ((ICommandHandler<TCommand, TResult>)handler).Handle(command, default);
+             return await ((ICommandHandler<TCommand, TResult>)handler).Handle(command, default);
         }
     }
    

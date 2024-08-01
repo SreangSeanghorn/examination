@@ -128,4 +128,5 @@
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Api/obj/Debug/net8.0/OnlineExam.api.pdb
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/obj/Debug/net8.0/OnlineExam.api.genruntimeconfig.cache
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/obj/Debug/net8.0/ref/OnlineExam.api.dll
+/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Api/obj/Debug/net8.0/OnlineExam.api.sourcelink.json
 /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/obj/Debug/net8.0/OnlineEx.27113520.Up2Date
