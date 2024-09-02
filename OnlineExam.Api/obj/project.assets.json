@@ -10324,11 +10324,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/OnlineExam.api.csproj",
+      "projectUniqueName": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/OnlineExam.api.csproj",
       "projectName": "OnlineExam.api",
-      "projectPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/OnlineExam.api.csproj",
+      "projectPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/OnlineExam.api.csproj",
       "packagesPath": "/Users/seanghorn/.nuget/packages/",
-      "outputPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/obj/",
+      "outputPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/seanghorn/.nuget/NuGet/NuGet.Config"
@@ -10343,14 +10343,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Application/OnlineExam.Application.csproj": {
-              "projectPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Application/OnlineExam.Application.csproj"
+            "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Application/OnlineExam.Application.csproj": {
+              "projectPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Application/OnlineExam.Application.csproj"
             },
-            "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj": {
-              "projectPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj"
+            "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj": {
+              "projectPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj"
             },
-            "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/OnlineExam.Infrastructure.csproj": {
-              "projectPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/OnlineExam.Infrastructure.csproj"
+            "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/OnlineExam.Infrastructure.csproj": {
+              "projectPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Infrastructure/OnlineExam.Infrastructure.csproj"
             }
           }
         }

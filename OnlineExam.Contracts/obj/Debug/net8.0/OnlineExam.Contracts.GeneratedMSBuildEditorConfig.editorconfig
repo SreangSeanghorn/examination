@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineExam.Contracts
-build_property.ProjectDir = /Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/
+build_property.ProjectDir = /Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

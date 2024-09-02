@@ -8,7 +8,7 @@ namespace OnlineExam.Application.DTO.Authentication
 {
     public class AuthenticationResultResponse 
     {
-        User user;
+        User user ;
         string Token;
 
         public AuthenticationResultResponse(User user, string token)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/OnlineExam.Domain.csproj": {}
+    "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/OnlineExam.Domain.csproj": {}
   },
   "projects": {
-    "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/OnlineExam.Domain.csproj": {
+    "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/OnlineExam.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/OnlineExam.Domain.csproj",
+        "projectUniqueName": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/OnlineExam.Domain.csproj",
         "projectName": "OnlineExam.Domain",
-        "projectPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/OnlineExam.Domain.csproj",
+        "projectPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/OnlineExam.Domain.csproj",
         "packagesPath": "/Users/seanghorn/.nuget/packages/",
-        "outputPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/",
+        "outputPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/seanghorn/.nuget/NuGet/NuGet.Config"

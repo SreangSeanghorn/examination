@@ -25,5 +25,10 @@ namespace OnlineExam.Infrastructure.Persistence
         {
             return await _context.Set<User>().FirstOrDefaultAsync(u => u.Username == username);
         }
+        public async Task<User> GetUserAndUserRoleByEmail(string email)
+        {
+            return await _context.Set<User>().Include(u => u.Roles).FirstOrDefaultAsync(u => u.Email.Value == email);
+        }
+    
     }
 }

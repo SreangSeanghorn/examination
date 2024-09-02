@@ -19,7 +19,6 @@ namespace OnlineExam.Application.Controllers
     {
         private readonly IAuthenticationService _authenticationService;
         private readonly ICommandResolver _commandResolver;
-        //ctor
         public AuthenticationController(IAuthenticationService authenticationService, ICommandResolver commandResolver)
         {
             _authenticationService = authenticationService;
@@ -30,7 +29,6 @@ namespace OnlineExam.Application.Controllers
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
             var user = request.Username;
-            Console.WriteLine("Registering user"+request.Username);
             if(request == null)
             {
                 return BadRequest();
@@ -38,6 +36,16 @@ namespace OnlineExam.Application.Controllers
             var command = new UserRegisterCommand(request.Username, request.Email, request.Password);
             var result = await _commandResolver.ResolveHandler<UserRegisterCommand, AuthenticationResultResponse>(command);
             return Ok();
+        }
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(UserLoginCommand request)
+        {
+            if(request == null)
+            {
+                return BadRequest();
+            }
+            var result = await _commandResolver.ResolveHandler<UserLoginCommand, UserLoginResponse>(request);
+            return Ok(result);
         }
 
     }

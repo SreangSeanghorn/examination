@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj": {}
+    "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj": {}
   },
   "projects": {
-    "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj": {
+    "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj",
+        "projectUniqueName": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj",
         "projectName": "OnlineExam.Contracts",
-        "projectPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj",
+        "projectPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/OnlineExam.Contracts.csproj",
         "packagesPath": "/Users/seanghorn/.nuget/packages/",
-        "outputPath": "/Users/seanghorn/Documents/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/",
+        "outputPath": "/Users/seanghorn/Documents/Project/DotNet/online_exam_ddd/OnlineExam/OnlineExam.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/seanghorn/.nuget/NuGet/NuGet.Config"
