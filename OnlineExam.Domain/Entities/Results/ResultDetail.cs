@@ -8,6 +8,18 @@ namespace OnlineExam.Domain.Entities.Results
         public Guid QuestionId { get; set; }
         public decimal Score { get; set; }
         public string Feedback { get; set; }
+
+        public ResultDetail()
+        {
+        }
+
+        public ResultDetail(Guid resultId, Guid questionId, decimal score, string feedback)
+        {
+            ResultId = resultId;
+            QuestionId = questionId;
+            Score = score;
+            Feedback = feedback;
+        }
     }
 
 }

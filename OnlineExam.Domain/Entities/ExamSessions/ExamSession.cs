@@ -6,7 +6,7 @@ using OnlineExam.Domain.Interfaces;
 
 namespace OnlineExam.Domain.Entities.ExamSessions
 {
-    public class ExamSession : Entity<Guid>, IAggregateRoot
+    public class ExamSession : AggregateRoot<Guid>
     {
         public Guid CandidateId { get; private set; }
         public Guid ExamId { get; private set; }
@@ -21,13 +21,14 @@ namespace OnlineExam.Domain.Entities.ExamSessions
             ExamId = examId;
         }
 
-        public ExamSession ExamStart(Guid candidateId, Guid examId)
+        public static ExamSession StartExam(Guid candidateId, Guid examId)
         {
-            CandidateId = candidateId;
-            ExamId = examId;
-            
-            return this;
+            var examSession = new ExamSession(candidateId, examId);
+            examSession.RaiseDomainEvents(new ExamSessionStartedEvent(examSession));
+            return examSession;
         }
+
+
         public void SubmitAnswer(Guid questionId, Guid selectedOptionId)
         {
             var answer = new SubmittedAnswer(questionId, selectedOptionId);
@@ -35,7 +36,4 @@ namespace OnlineExam.Domain.Entities.ExamSessions
         }
     }
 
-    public class SubmittedAnswer
-    {
-    }
 }

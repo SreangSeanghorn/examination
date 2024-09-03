@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace OnlineExam.Domain.Entities
 {
-    public class Exam : AggregateRoot<Guid>
+    public class Examination : AggregateRoot<Guid>
 {
     private Guid _examId;
     public string Title { get; set; }
