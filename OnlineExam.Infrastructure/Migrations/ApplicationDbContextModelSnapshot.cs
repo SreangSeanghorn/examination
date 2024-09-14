@@ -43,15 +43,33 @@ namespace OnlineExam.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("b58230c8-9173-4655-951d-2e864475a7e0"),
+                            Id = new Guid("e7d430e9-da66-47ac-927f-1e57e9841f09"),
                             Description = "Admin Role",
                             Name = "Admin"
                         },
                         new
                         {
-                            Id = new Guid("744e444b-4594-43a2-b978-9476383a58c7"),
+                            Id = new Guid("29cd5570-0fc0-4bd2-8140-cc790acbcd49"),
                             Description = "User Role",
                             Name = "User"
+                        },
+                        new
+                        {
+                            Id = new Guid("4d627f00-ade3-4439-aa1a-e867d32b3893"),
+                            Description = "Teacher Role",
+                            Name = "Teacher"
+                        },
+                        new
+                        {
+                            Id = new Guid("68f88d06-84bc-42c7-bae5-f415ee0b1fe8"),
+                            Description = "Student Role",
+                            Name = "Student"
+                        },
+                        new
+                        {
+                            Id = new Guid("44c9f549-a012-45a4-b74e-b00da025c59a"),
+                            Description = "Default Role",
+                            Name = "Default"
                         });
                 });
 
@@ -76,8 +94,8 @@ namespace OnlineExam.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("364283f9-a0b5-476a-81c0-30118d4ef4ac"),
-                            Password = "AQAAAAIAAYagAAAAEJ+hSdIWDisUW3dAL9/pdT4DnICiTegK5vUcoUrkRdVPHG48j+kmw8PU/+zUx4JO1w==",
+                            Id = new Guid("16a6f6e1-a6ba-4389-aeab-f34142c26448"),
+                            Password = "AQAAAAIAAYagAAAAENTO5SrJwHZC+GOJz/zQ5EJEKlIEk+V2I0ji+WDuc7BVJC6tMSVQyzQcqnLSL3nlVA==",
                             Username = "admin"
                         });
                 });
@@ -119,7 +137,7 @@ namespace OnlineExam.Infrastructure.Migrations
                             b1.HasData(
                                 new
                                 {
-                                    UserId = new Guid("364283f9-a0b5-476a-81c0-30118d4ef4ac"),
+                                    UserId = new Guid("16a6f6e1-a6ba-4389-aeab-f34142c26448"),
                                     Value = "seanghorn@gmail.com"
                                 });
                         });

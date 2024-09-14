@@ -1,15 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using OnlineExam.Contracts.Authentication;
-using OnlineExam.Application.Commands;
 using OnlineExam.Application.Commands.Authentication;
 using OnlineExam.Application.DTO.Authentication;
-using  OnlineExam.Domain.Repositories;
 using OnlineExam.Infrastructure.Resolver;
 using OnlineExam.Infrastructure.Services;
+using OnlineExam.Application.Common;
+using OnlineExam.Application.Authentication.UserLogin;
 
 namespace OnlineExam.Application.Controllers
 {
@@ -37,16 +33,14 @@ namespace OnlineExam.Application.Controllers
             var result = await _commandResolver.ResolveHandler<UserRegisterCommand, AuthenticationResultResponse>(command);
             return Ok();
         }
+      
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserLoginCommand request)
+        public async Task<IActionResult> Login(UserLoginCommand command)
         {
-            if(request == null)
-            {
-                return BadRequest();
-            }
-            var result = await _commandResolver.ResolveHandler<UserLoginCommand, UserLoginResponse>(request);
+            var result = await _commandResolver.ResolveHandler<UserLoginCommand, BaseResponse<UserLoginResponse>>(command);
             return Ok(result);
         }
+        
 
     }
 }

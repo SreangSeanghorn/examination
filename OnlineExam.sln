@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.api", "OnlineExa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.Application", "OnlineExam.Application\OnlineExam.Application.csproj", "{66F2229B-5E32-403D-BA3D-E206F9797829}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam.Application.Tests", "OnlineExam.Application.Tests\OnlineExam.Application.Tests.csproj", "{9A3B3898-D141-4551-AEF6-B0B898443BB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{66F2229B-5E32-403D-BA3D-E206F9797829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66F2229B-5E32-403D-BA3D-E206F9797829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66F2229B-5E32-403D-BA3D-E206F9797829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3B3898-D141-4551-AEF6-B0B898443BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3B3898-D141-4551-AEF6-B0B898443BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3B3898-D141-4551-AEF6-B0B898443BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3B3898-D141-4551-AEF6-B0B898443BB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

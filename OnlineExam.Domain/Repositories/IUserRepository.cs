@@ -10,5 +10,8 @@ namespace OnlineExam.Domain.Repositories
     {
         public  Task<User> GetUserByEmailAsync(string email);
         public Task<User> GetUserByUsernameAsync(string username);
+        public Task<User> LoginUserAsync(string email, string password);
+
+        public Task<User> GetUserByEmailWithRolesAsync(string email);
     }
 }

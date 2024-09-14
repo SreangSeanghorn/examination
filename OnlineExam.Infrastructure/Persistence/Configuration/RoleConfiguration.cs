@@ -29,6 +29,26 @@ namespace OnlineExam.Infrastructure.Persistence.Configuration
                     Name = "User",
                     Description = "User Role"
                 }
+                ,
+                new Role
+                {
+                    Id = Guid.NewGuid(),
+                    Name = "Teacher",
+                    Description = "Teacher Role"
+                },
+                new Role
+                {
+                    Id = Guid.NewGuid(),
+                    Name = "Student",
+                    Description = "Student Role"
+                },
+                new Role
+                {
+                    Id = Guid.NewGuid(),
+                    Name = "Default",
+                    Description = "Default Role"
+                }
+
             );
         }
     }

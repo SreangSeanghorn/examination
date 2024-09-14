@@ -20,9 +20,12 @@ using OnlineExam.Application.CommandHandler;
 using OnlineExam.Infrastructure.Resolver;
 using OnlineExam.Infrastructure;
 using OnlineExam.Domain.Entities;
-using OnlineExam.Application.UserLogin;
 using OnlineExam.Infrastructure.Persistence.Repositories;
 using OnlineExam.Application.QueriesHandler;
+using OnlineExam.Domain.Services;
+using OnlineExam.Application.Authentication.UserLogin;
+using OnlineExam.Application.Common;
+using OnlineExam.Application.Authentication.Services;
 
 namespace OnlineExam.Application{
 
@@ -37,9 +40,11 @@ public static class DependencyInjection
             services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(UserRegisterCommandHandler).Assembly));
             services.AddScoped<ICommandHandler<UserRegisterCommand, AuthenticationResultResponse>, UserRegisterCommandHandler>();
-            services.AddScoped<ICommandHandler<UserLoginCommand, UserLoginResponse>, UserLoginCommandHandler>();
+            services.AddScoped<ICommandHandler<UserLoginCommand, BaseResponse<UserLoginResponse>>, UserLoginCommandHandler>();
             services.AddScoped<IRoleRepository, RoleRepositoy>();
             services.AddScoped<IQueryHandler<GetUserByEmailQuery,GetUserInfoByEmailResponseDTO>, GetUserByEmailQueryHandler>();
+
+            services.AddScoped<IUserService, UserService>();
 
             return services;
         }
